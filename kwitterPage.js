@@ -29,7 +29,7 @@ function getData() {
                         btnlike = "<button class='btn btn-warning' id = '" + firebaseMessageId + "' value='" + like + "' onclick='newlike(this.id)'>";
                         tagSpn = "<span class='glyphicon glyphicon-thumbs-up'> likes :" + like + "</span> </button> <hr>";
                         tagAll = tagN + tagM + btnlike + tagSpn;
-                        document.getElementById("saida").innerHTML = tagAll;
+                        document.getElementById("saida").innerHTML += tagAll;
                         //Fim do código
                   }
             });
